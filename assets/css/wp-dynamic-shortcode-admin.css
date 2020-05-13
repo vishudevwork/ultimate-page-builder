@@ -1,0 +1,145 @@
+.wpdyn_field_wrap label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 9px;
+}
+.gpb_input {
+    width: 100% !important;
+}
+.wpdyn_hidden {
+    display: none;
+}
+span.wpdyn_error {
+    display: block;
+    color: #ff0000;
+    margin: 4px 0px;
+    font-weight: 600;
+}
+p.wpdyn_information {
+    background: #00a0d2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.wpdyn_field_wrap, .wpdyn_btn_wrap {
+    padding: 10px;
+}
+.select2-container {
+    width: 100% !important;
+}
+.wpdyn_ajax_processing {
+    background-image: url('../img/loader.gif');
+}
+.wpdyn_progress_bar_wrap {
+    border: 1px solid #ccc;
+    height: 30px;
+    margin: 10px 0px;
+    background: #e2e2e2;
+    position: relative;
+}
+.wpdyn_process_status {
+    display: none;
+}
+.wpdyn_location_fields, .wpdyn_page_fields, .wpdyn_markup_fields {
+    width: 100%;
+}
+.wpdyn_row {
+    display: flex;
+}
+span.wpdyn_success_message {
+    font-size: 20px;
+    padding: 17% 0%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+span.wpdyn_progress_bar {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: green;
+}
+
+.wpdyn_confirmation_text strong {
+    font-weight: bolder;
+}
+#wpdyn_modal {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+    left: 0
+}
+
+.wpdyn_modal_content {
+    max-height: 80vh;
+    padding: 20px;
+    overflow: auto
+}
+
+.wpdyn_modal_heading {
+    border-bottom: 1px solid #e2e2e2;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.wpdyn_modal_footer {
+    border-top: 1px solid #e2e2e2;
+    padding: 15px;
+    text-align: right;
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+.wpdyn_modal_alert {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: absolute;
+    max-width: 600px;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    transition-duration: 0.7s;
+}
+
+.wpdyn_overlay {
+    background: rgba(0, 0, 0, .7)
+}
+
+strong.wpdyn_shortcode {
+    display: block;
+    margin: 4px 0px;
+}
+.wpdyn_popup_close {
+    position: absolute;
+    right: 10px;
+    background: #ec2662;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px 8px;
+    top: 10px;
+    text-align: center;
+    line-height: 0px;
+}
+.wpdyn_detailed_status {
+    max-height: 200px;
+    overflow: auto;
+}
+
+.wpdyn_detailed_status span {
+    display: inline-block;
+    width: 100%;
+    line-height: 27px;
+    font-size: 14px;
+}
